@@ -1,9 +1,9 @@
 # Synthesizer
 
 A small Synthesizer/Midiplayer written partially by AI
-(I'm sorry, I just didn't have the time to properly do it, but I assure you it wasn't vibe-coded).
+(I'm sorry, I just didn't have the time to do it properly, but I assure you it wasn't vibe-coded).
 
-I will rewrite it later to replace all the AI code, as I am planning to use it in [https://github.com/IamLegende7/total_domination](Total Domination).
+I will rewrite it later to replace all the AI code, as I am planning to use it in [Total Domination](https://github.com/IamLegende7/total_domination).
 
 ## Compiling & Running
 
@@ -36,4 +36,4 @@ Currently you sadly can't skip forward (or backwards) through the piece.
 
 The settings of each instrument can be found in `instruments/`, so that you can change them to fit your prefrences.
 
-I didn't have the motivation for a proper UI.
+I didn't have the motivation for a proper UI for fine-tuning the Synths.
