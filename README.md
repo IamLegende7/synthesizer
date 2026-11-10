@@ -10,7 +10,7 @@ I will rewrite it later to replace all the AI code, as I am planning to use it i
 This Programm currently only runs on GNU/Linux (maybe MacOS, idk). To compile it you don't really need much, just CMake and it's dependencies should suffice, as Synthesizer comes with it's own copy of SDL3.
 
 ```bash
-git clone --recurse https://github.com/IamLegende7/synthesizer
+git clone --recursive https://github.com/IamLegende7/synthesizer
 ```
 
 ```bash
