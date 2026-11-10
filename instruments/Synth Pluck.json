@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "name": "Synth Pluck",
+  "oscillators": [
+    {
+      "enabled": true, "waveform": "SAW", "transpose": 0,
+      "offsetCents": 0.0, "levelDb": -3.0, "pulseWidth": 0.5,
+      "lfoPitchCents": 0.0, "envPitchCents": 0.0, "warm": false
+    },
+    {
+      "enabled": true, "waveform": "SQUARE", "transpose": 0,
+      "offsetCents": 5.0, "levelDb": -8.0, "pulseWidth": 0.35,
+      "lfoPitchCents": 0.0, "envPitchCents": 0.0, "warm": false
+    },
+    {
+      "enabled": false, "waveform": "SAW", "transpose": 12,
+      "offsetCents": 0.0, "levelDb": -14.0, "pulseWidth": 0.5,
+      "lfoPitchCents": 0.0, "envPitchCents": 0.0, "warm": false
+    }
+  ],
+  "amp": {
+    "attackMs": 1.0, "decayMs": 240.0, "sustain": 0.18, "releaseMs": 100.0
+  },
+  "masterLevelDb": -3.0,
+  "filter": {
+    "type": "LOWPASS", "cutoffHz": 6500.0, "resonance": 0.16,
+    "envAmount": 0.48, "lfoAmount": 0.0, "keyTracking": 0.55,
+    "envelope": {
+      "attackMs": 1.0, "decayMs": 280.0, "sustain": 0.12, "releaseMs": 110.0
+    }
+  },
+  "lfo": {
+    "waveform": "SINE", "rateHz": 5.2, "delayMs": 180.0, "retrigger": true
+  },
+  "ringMod": false,
+  "chorus": false
+}

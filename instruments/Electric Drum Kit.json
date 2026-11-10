@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "name": "Electric Drum Kit",
+  "oscillators": [
+    {
+      "enabled": true, "waveform": "SQUARE", "transpose": 0,
+      "offsetCents": 0.0, "levelDb": -1.0, "pulseWidth": 0.25,
+      "lfoPitchCents": 0.0, "envPitchCents": -24.0, "warm": false
+    },
+    {
+      "enabled": true, "waveform": "SAW", "transpose": -12,
+      "offsetCents": 0.0, "levelDb": -8.0, "pulseWidth": 0.5,
+      "lfoPitchCents": 0.0, "envPitchCents": -12.0, "warm": false
+    },
+    {
+      "enabled": false, "waveform": "SAW", "transpose": -12,
+      "offsetCents": 0.0, "levelDb": -14.0, "pulseWidth": 0.5,
+      "lfoPitchCents": 0.0, "envPitchCents": 0.0, "warm": false
+    }
+  ],
+  "amp": {
+    "attackMs": 1.0, "decayMs": 110.0, "sustain": 0.0, "releaseMs": 35.0
+  },
+  "masterLevelDb": -3.0,
+  "filter": {
+    "type": "LOWPASS", "cutoffHz": 7500.0, "resonance": 0.18,
+    "envAmount": 0.55, "lfoAmount": 0.0, "keyTracking": 0.0,
+    "envelope": {
+      "attackMs": 1.0, "decayMs": 90.0, "sustain": 0.0, "releaseMs": 30.0
+    }
+  },
+  "lfo": {
+    "waveform": "SINE", "rateHz": 5.0, "delayMs": 0.0, "retrigger": true
+  },
+  "ringMod": false,
+  "chorus": false
+}

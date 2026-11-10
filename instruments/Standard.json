@@ -1,0 +1,64 @@
+{
+  "version" : 1,
+  "name" : "Classic Square + Saw Lead",
+  "oscillators" : [ {
+    "enabled" : true,
+    "waveform" : "SAW",
+    "transpose" : 0,
+    "offsetCents" : 0.0,
+    "levelDb" : -6.0,
+    "pulseWidth" : 0.5,
+    "lfoPitchCents" : 0.0,
+    "envPitchCents" : 0.0,
+    "warm" : true
+  }, {
+    "enabled" : true,
+    "waveform" : "SQUARE",
+    "transpose" : 0,
+    "offsetCents" : 7.0,
+    "levelDb" : -8.0,
+    "pulseWidth" : 0.5,
+    "lfoPitchCents" : 0.0,
+    "envPitchCents" : 0.0,
+    "warm" : true
+  }, {
+    "enabled" : false,
+    "waveform" : "SAW",
+    "transpose" : -12,
+    "offsetCents" : 0.0,
+    "levelDb" : -14.0,
+    "pulseWidth" : 0.5,
+    "lfoPitchCents" : 0.0,
+    "envPitchCents" : 0.0,
+    "warm" : false
+  } ],
+  "amp" : {
+    "attackMs" : 4.0,
+    "decayMs" : 140.0,
+    "sustain" : 0.82,
+    "releaseMs" : 180.0
+  },
+  "masterLevelDb" : -6.0,
+  "filter" : {
+    "type" : "LOWPASS",
+    "cutoffHz" : 3600.0,
+    "resonance" : 0.22,
+    "envAmount" : 0.32,
+    "lfoAmount" : 0.0,
+    "keyTracking" : 0.45,
+    "envelope" : {
+      "attackMs" : 2.0,
+      "decayMs" : 190.0,
+      "sustain" : 0.38,
+      "releaseMs" : 160.0
+    }
+  },
+  "lfo" : {
+    "waveform" : "SINE",
+    "rateHz" : 5.2,
+    "delayMs" : 180.0,
+    "retrigger" : true
+  },
+  "ringMod" : false,
+  "chorus" : false
+}

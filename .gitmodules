@@ -1,0 +1,9 @@
+[submodule "lib/SDL"]
+	path = lib/SDL
+	url = https://github.com/libsdl-org/SDL.git
+[submodule "lib/MidiFile"]
+	path = lib/MidiFile
+	url = https://github.com/craigsapp/midifile.git
+[submodule "lib/nlohmann"]
+	path = lib/nlohmann
+	url = https://github.com/nlohmann/json.git
